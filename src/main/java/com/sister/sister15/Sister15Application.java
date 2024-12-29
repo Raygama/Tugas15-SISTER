@@ -13,6 +13,12 @@ public class Sister15Application {
     public String Message() {
         return "Tugas 15 Cloud Computing - Azure Web Application";
     }
+
+    @GetMapping("/new")
+    public String New() {
+        return "Tugas 15 Cloud Computing - New Method";
+    }
+
     public static void main(String[] args) {
         SpringApplication.run(Sister15Application.class, args);
     }
